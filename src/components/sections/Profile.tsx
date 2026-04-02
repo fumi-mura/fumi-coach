@@ -1,11 +1,12 @@
 const hobbies = [
-  { icon: "✈", label: "旅行" },
+  { icon: "✈", label: "一人旅" },
   { icon: "🏀", label: "バスケ" },
   { icon: "📖", label: "読書" },
   { icon: "🏋", label: "筋トレ" },
   { icon: "🚶", label: "散歩" },
   { icon: "🐕", label: "犬" },
   { icon: "🧖", label: "サウナ" },
+  { icon: "🧘", label: "瞑想" },
 ];
 
 const diagnoses = [
