@@ -8,15 +8,7 @@ export default function Footer() {
   return (
     <footer className="bg-ink py-16">
       <div className="max-w-6xl mx-auto px-6">
-        <div className="flex flex-col md:flex-row justify-between items-center gap-8">
-          {/* Logo + tagline */}
-          <div className="text-center md:text-left">
-            <span className="font-display italic text-gold text-2xl">fumi</span>
-            <p className="font-sans text-ink-faint text-xs mt-1 tracking-wider">
-              coaching
-            </p>
-          </div>
-
+        <div className="flex justify-center">
           {/* Nav links */}
           <nav className="flex flex-wrap justify-center gap-8">
             {navLinks.map((link) => (
