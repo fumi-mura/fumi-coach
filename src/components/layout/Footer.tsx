@@ -32,6 +32,10 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-white/10 mt-12 pt-8 text-center">
+          <p className="font-serif text-white/40 text-sm leading-relaxed mb-6">
+            答えは、あなたの中にある。<br />
+            忙しさの中で、少しだけ立ち止まる時間を、大切に。
+          </p>
           <p className="font-sans text-ink-faint text-xs">
             © {new Date().getFullYear()} fumi coaching
           </p>
