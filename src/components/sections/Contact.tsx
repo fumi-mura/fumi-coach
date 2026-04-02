@@ -1,5 +1,3 @@
-// LINE公式アカウントのURLをここに設定してください
-const LINE_URL = "https://lin.ee/XXXXXXX";
 
 export default function Contact() {
   return (
@@ -23,18 +21,16 @@ export default function Contact() {
 
         {/* LINE CTA */}
         <div className="text-center">
-          <a
-            href={LINE_URL}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center gap-3 bg-[#06C755] text-white font-sans font-medium text-sm tracking-wider px-10 py-4 hover:bg-[#05b34c] transition-colors duration-300"
+          <button
+            disabled
+            className="inline-flex items-center gap-3 bg-[#06C755] text-white font-sans font-medium text-sm tracking-wider px-10 py-4 opacity-60 cursor-not-allowed"
           >
             {/* LINE icon */}
             <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
               <path d="M12 2C6.477 2 2 6.145 2 11.243c0 2.598 1.207 4.926 3.105 6.534L4.2 21.1a.5.5 0 0 0 .65.628l3.954-1.55A10.96 10.96 0 0 0 12 20.486c5.523 0 10-4.145 10-9.243S17.523 2 12 2zm-3.5 12.5h-1a.5.5 0 0 1-.5-.5v-5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v5a.5.5 0 0 1-.5.5zm7 0h-1a.5.5 0 0 1-.4-.2l-2.6-3.5V14a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5V9a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .4.2l2.6 3.5V9a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v5a.5.5 0 0 1-.5.5z"/>
             </svg>
             LINEで友だち追加
-          </a>
+          </button>
           <p className="font-sans text-ink-faint text-xs mt-5">
             24時間受付。通常1〜2営業日以内にご返信いたします。
           </p>
