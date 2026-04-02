@@ -1,8 +1,11 @@
 const hobbies = [
-  { icon: "♪", label: "音楽鑑賞" },
-  { icon: "✦", label: "読書" },
-  { icon: "▲", label: "登山・ハイキング" },
-  { icon: "◎", label: "カフェ巡り" },
+  { icon: "✈", label: "旅行" },
+  { icon: "🏀", label: "バスケ" },
+  { icon: "📖", label: "読書" },
+  { icon: "🏋", label: "筋トレ" },
+  { icon: "🚶", label: "散歩" },
+  { icon: "🐕", label: "犬" },
+  { icon: "🧖", label: "サウナ" },
 ];
 
 const diagnoses = [
@@ -93,7 +96,7 @@ export default function Profile() {
           <h3 className="font-serif text-ink text-2xl md:text-3xl mb-10 text-center">
             趣味
           </h3>
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
             {hobbies.map((hobby) => (
               <div
                 key={hobby.label}
