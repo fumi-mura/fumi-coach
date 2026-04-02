@@ -86,7 +86,7 @@ export default function Profile() {
           {hobbies.map((hobby) => (
             <span
               key={hobby.label}
-              className="font-sans text-ink-faint text-xs border border-border px-3 py-1"
+              className="font-sans text-ink-faint text-xs"
             >
               {hobby.icon} {hobby.label}
             </span>
