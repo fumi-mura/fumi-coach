@@ -23,37 +23,22 @@ export default function Hero() {
           </p>
 
           {/* Main headline */}
-          <h1 className="font-serif text-ink leading-[1.7] mb-6">
-            <span className="block text-4xl md:text-5xl lg:text-6xl">
-              自分らしい未来を、
-            </span>
-            <span className="block text-4xl md:text-5xl lg:text-6xl">
-              ともに描く。
-            </span>
+          <h1 className="font-serif text-ink leading-[1.7] mb-6 text-4xl md:text-5xl lg:text-6xl">
+            「なりたい自分」に、<br />正直でいい。
           </h1>
 
           {/* Sub copy */}
           <p className="font-sans text-ink-muted text-base md:text-lg leading-relaxed mb-10 max-w-md">
-            コーチングを通じて、あなたの内側にある答えを引き出し、
-            <br className="hidden md:block" />
-            理想の人生へと歩み出すサポートをします。
+            コーチングで、自分の声を聴く時間をつくろう。
           </p>
 
-          {/* CTAs */}
-          <div className="flex flex-col sm:flex-row gap-4 items-start">
-            <a
-              href="#contact"
-              className="inline-block bg-gold text-white font-sans font-medium text-sm tracking-wider px-8 py-4 hover:bg-gold-dark transition-colors duration-300"
-            >
-              無料体験セッションを申し込む
-            </a>
-            <a
-              href="#service"
-              className="inline-block font-sans text-gold text-sm tracking-wider border-b border-gold/40 hover:border-gold pb-0.5 transition-colors duration-300 self-center"
-            >
-              コーチングについて →
-            </a>
-          </div>
+          {/* CTA */}
+          <a
+            href="#contact"
+            className="inline-block bg-gold text-white font-sans font-medium text-sm tracking-wider px-8 py-4 hover:bg-gold-dark transition-colors duration-300"
+          >
+            無料体験セッションを申し込む
+          </a>
         </div>
       </div>
 
