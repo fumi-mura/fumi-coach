@@ -4,13 +4,17 @@ export default function Hero() {
       id="hero"
       className="relative min-h-screen flex items-center bg-cream overflow-hidden"
     >
-      {/* Watermark decoration */}
-      <span
-        className="absolute right-8 top-1/2 -translate-y-1/2 font-serif text-[400px] leading-none text-ink/[0.03] select-none pointer-events-none"
-        aria-hidden="true"
-      >
-        道
-      </span>
+      {/* Geometric decoration */}
+      <div className="absolute right-0 top-0 w-full h-full pointer-events-none select-none" aria-hidden="true">
+        {/* Large circle - right */}
+        <div className="absolute -right-40 top-1/2 -translate-y-1/2 w-[600px] h-[600px] rounded-full border border-gold/10" />
+        {/* Medium circle - right inner */}
+        <div className="absolute -right-20 top-1/2 -translate-y-1/2 w-[380px] h-[380px] rounded-full border border-gold/15" />
+        {/* Small circle - top right */}
+        <div className="absolute right-32 top-24 w-16 h-16 rounded-full border border-gold/20" />
+        {/* Dot - top right accent */}
+        <div className="absolute right-52 top-36 w-2 h-2 rounded-full bg-gold/20" />
+      </div>
 
       <div className="relative z-10 max-w-6xl mx-auto px-6 py-32 pt-40">
         <div className="max-w-2xl">
