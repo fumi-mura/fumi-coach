@@ -67,7 +67,7 @@ export default function Profile() {
             <h3 className="font-serif text-ink text-2xl mb-8">ストーリー</h3>
             <div className="space-y-5 font-sans text-ink-muted text-base leading-relaxed">
               <p>
-                24歳のとき、身近な人が相次いで亡くなる出来事がありました。
+                20代中盤、身の回りで不幸が重なることがありました。
                 それまで当たり前だった日常が、突然崩れていく感覚。そのとき初めて、「自分は本当に何がしたいのか？」という問いと真剣に向き合うことになりました。
               </p>
               <p>
