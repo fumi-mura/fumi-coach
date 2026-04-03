@@ -19,12 +19,12 @@ export default function Service() {
 
       {/* Section header */}
       <div className="max-w-6xl mx-auto px-6 pt-28 md:pt-36 pb-16 text-center">
-        <p className="font-display italic text-gold tracking-[0.25em] text-sm mb-4">
-          SERVICES
-        </p>
-        <h2 className="font-serif text-ink text-3xl md:text-4xl">
-          サービス
+        <h2 className="font-serif text-ink text-3xl md:text-4xl mb-4">
+          Service
         </h2>
+        <p className="font-display italic text-gold tracking-[0.25em] text-sm">
+          サービス
+        </p>
         <div className="w-16 h-px bg-gold mx-auto mt-8" />
       </div>
 
