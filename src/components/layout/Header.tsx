@@ -62,13 +62,13 @@ export default function Header() {
 
         {/* Mobile hamburger */}
         <button
-          className="md:hidden flex flex-col gap-1.5 p-2"
+          className="md:hidden relative z-50 flex flex-col gap-1.5 p-2"
           onClick={() => setMenuOpen(!menuOpen)}
           aria-label="メニュー"
         >
           <span
             className={`block w-6 h-px bg-ink transition-all duration-300 ${
-              menuOpen ? "rotate-45 translate-y-2.5" : ""
+              menuOpen ? "rotate-45 translate-y-[7px]" : ""
             }`}
           />
           <span
@@ -78,7 +78,7 @@ export default function Header() {
           />
           <span
             className={`block w-6 h-px bg-ink transition-all duration-300 ${
-              menuOpen ? "-rotate-45 -translate-y-2.5" : ""
+              menuOpen ? "-rotate-45 -translate-y-[7px]" : ""
             }`}
           />
         </button>
