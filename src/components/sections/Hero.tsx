@@ -28,12 +28,12 @@ export default function Hero() {
 
           {/* Main headline */}
           <h1 className="font-serif text-ink leading-[1.7] mb-6 text-4xl md:text-5xl lg:text-6xl">
-            「なりたい自分」に、<br />正直でいい。
+            一人で、悩まなくていい。
           </h1>
 
           {/* Sub copy */}
           <p className="font-sans text-ink-muted text-base md:text-lg leading-relaxed mb-10">
-            コーチングで、自分の声を聴く時間をつくろう。
+            本当にやりたいことの答えは、あなたの中にある。<br />
           </p>
 
           {/* CTA */}
