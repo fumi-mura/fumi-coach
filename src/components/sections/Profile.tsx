@@ -15,16 +15,12 @@ export default function Profile() {
 
       <div className="max-w-2xl mx-auto px-6 pb-28">
         {/* Photo */}
-        <div className="aspect-[3/2] bg-border/60 rounded-sm overflow-hidden flex items-center justify-center mb-4">
-          <div className="text-center">
-            <div className="w-20 h-20 rounded-full bg-border mx-auto mb-4 flex items-center justify-center">
-              <svg width="36" height="36" viewBox="0 0 24 24" fill="none" className="text-ink-faint">
-                <path d="M12 12C14.7614 12 17 9.76142 17 7C17 4.23858 14.7614 2 12 2C9.23858 2 7 4.23858 7 7C7 9.76142 9.23858 12 12 12Z" stroke="currentColor" strokeWidth="1.5" />
-                <path d="M20 21C20 18.2386 16.4183 16 12 16C7.58172 16 4 18.2386 4 21" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
-              </svg>
-            </div>
-            <p className="font-sans text-ink-faint text-xs">Photo</p>
-          </div>
+        <div className="aspect-[3/2] rounded-sm overflow-hidden mb-4">
+          <img
+            src="/IMG_6408.jpg"
+            alt="fumi"
+            className="w-full h-full object-cover"
+          />
         </div>
 
         {/* Signature */}
