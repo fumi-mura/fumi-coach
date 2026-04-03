@@ -3,14 +3,14 @@
 @theme inline {
   /* Color Palette */
   --color-cream:       #FFFFFF;
-  --color-gold:        #C9A96E;
-  --color-gold-light:  #E2C99A;
-  --color-gold-dark:   #A8864F;
+  --color-gold:        #7AAEC2;
+  --color-gold-light:  #AACFDE;
+  --color-gold-dark:   #5190A8;
   --color-ink:         #1A1A1A;
   --color-ink-muted:   #4A4A4A;
   --color-ink-faint:   #8A8A8A;
   --color-border:      #E8E8E8;
-  --color-surface:     #F7F7F7;
+  --color-surface:     #F7F9F9;
 
   /* Typography */
   --font-sans:    var(--font-noto-sans), 'Helvetica Neue', sans-serif;

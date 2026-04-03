@@ -32,7 +32,7 @@ export default function Contact() {
             LINEで友だち追加
           </button>
           <p className="font-sans text-ink-faint text-xs mt-5">
-            24時間受付。通常1〜2営業日以内にご返信いたします。
+            通常1〜2営業日以内にご返信いたします。
           </p>
         </div>
       </div>
