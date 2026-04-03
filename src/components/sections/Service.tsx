@@ -107,16 +107,16 @@ export default function Service() {
             </div>
           </div>
 
-          {/* 継続セッション */}
+          {/* 継続コーチング */}
           <div className="border border-border p-8">
             <div className="flex items-baseline gap-3 mb-6">
-              <h4 className="font-serif text-ink text-lg">継続セッション</h4>
-              <span className="font-sans text-ink-faint text-sm">60分 / 1回</span>
+              <h4 className="font-serif text-ink text-lg">継続コーチング</h4>
+              <span className="font-sans text-ink-faint text-sm">60分 / 3回 or 6回</span>
             </div>
             <p className="font-sans text-ink-muted text-sm leading-relaxed">
-              体験セッション後、継続を希望される方を対象にしたセッションです。
+              体験セッション後、継続を希望される方を対象にしたコーチングです。
               目標の設定から行動計画、振り返りまで、継続的にサポートします。
-              頻度・回数はご要望に合わせて柔軟に対応いたします。
+              3回または6回コースからお選びいただけます。
             </p>
           </div>
         </div>
@@ -128,7 +128,7 @@ export default function Service() {
             でご提供しています。
           </p>
           <p className="font-sans text-ink-faint text-xs">
-            ※ 今後有料化予定（体験セッション 1,500円 / 継続セッション 3,000円）
+            ※ 今後有料化予定（体験セッション 1,500円 / 継続コーチング 3,000円〜）
           </p>
         </div>
 
