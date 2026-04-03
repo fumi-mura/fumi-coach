@@ -8,17 +8,13 @@ export default function Footer() {
   return (
     <footer className="bg-ink py-16">
       <div className="max-w-6xl mx-auto px-6">
-        <div className="flex flex-col md:flex-row justify-between items-center gap-8">
-          {/* Logo + tagline */}
-          <div className="text-center md:text-left">
-            <span className="font-display italic text-gold text-2xl">fumi</span>
-            <p className="font-sans text-ink-faint text-xs mt-1 tracking-wider">
-              coaching
-            </p>
-          </div>
+        <p className="font-serif text-white/40 text-sm leading-relaxed text-center mb-12">
+          答えは、あなたの中にある。<br />
+          忙しさの中で、少しだけ立ち止まる時間を、大切に。
+        </p>
 
-          {/* Nav links */}
-          <nav className="flex flex-wrap justify-center gap-8">
+        <div className="border-t border-white/10 pt-8 text-center">
+          <nav className="flex flex-wrap justify-center gap-8 mb-6">
             {navLinks.map((link) => (
               <a
                 key={link.href}
@@ -29,9 +25,6 @@ export default function Footer() {
               </a>
             ))}
           </nav>
-        </div>
-
-        <div className="border-t border-white/10 mt-12 pt-8 text-center">
           <p className="font-sans text-ink-faint text-xs">
             © {new Date().getFullYear()} fumi coaching
           </p>

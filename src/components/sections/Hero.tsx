@@ -4,13 +4,17 @@ export default function Hero() {
       id="hero"
       className="relative min-h-screen flex items-center bg-cream overflow-hidden"
     >
-      {/* Watermark decoration */}
-      <span
-        className="absolute right-8 top-1/2 -translate-y-1/2 font-serif text-[400px] leading-none text-ink/[0.03] select-none pointer-events-none"
-        aria-hidden="true"
-      >
-        道
-      </span>
+      {/* Geometric decoration */}
+      <div className="absolute right-0 top-0 w-full h-full pointer-events-none select-none" aria-hidden="true">
+        {/* Large circle - right */}
+        <div className="absolute -right-40 top-1/2 -translate-y-1/2 w-[600px] h-[600px] rounded-full border border-gold/10" />
+        {/* Medium circle - right inner */}
+        <div className="absolute -right-20 top-1/2 -translate-y-1/2 w-[380px] h-[380px] rounded-full border border-gold/15" />
+        {/* Small circle - top right */}
+        <div className="absolute right-32 top-24 w-16 h-16 rounded-full border border-gold/20" />
+        {/* Dot - top right accent */}
+        <div className="absolute right-52 top-36 w-2 h-2 rounded-full bg-gold/20" />
+      </div>
 
       <div className="relative z-10 max-w-6xl mx-auto px-6 py-32 pt-40">
         <div className="max-w-2xl">
@@ -23,37 +27,22 @@ export default function Hero() {
           </p>
 
           {/* Main headline */}
-          <h1 className="font-serif text-ink leading-[1.7] mb-6">
-            <span className="block text-4xl md:text-5xl lg:text-6xl">
-              自分らしい未来を、
-            </span>
-            <span className="block text-4xl md:text-5xl lg:text-6xl">
-              ともに描く。
-            </span>
+          <h1 className="font-serif text-ink leading-[1.7] mb-6 text-4xl md:text-5xl lg:text-6xl">
+            「なりたい自分」に、<br />正直でいい。
           </h1>
 
           {/* Sub copy */}
           <p className="font-sans text-ink-muted text-base md:text-lg leading-relaxed mb-10 max-w-md">
-            コーチングを通じて、あなたの内側にある答えを引き出し、
-            <br className="hidden md:block" />
-            理想の人生へと歩み出すサポートをします。
+            コーチングで、自分の声を聴く時間をつくろう。
           </p>
 
-          {/* CTAs */}
-          <div className="flex flex-col sm:flex-row gap-4 items-start">
-            <a
-              href="#contact"
-              className="inline-block bg-gold text-white font-sans font-medium text-sm tracking-wider px-8 py-4 hover:bg-gold-dark transition-colors duration-300"
-            >
-              無料体験セッションを申し込む
-            </a>
-            <a
-              href="#service"
-              className="inline-block font-sans text-gold text-sm tracking-wider border-b border-gold/40 hover:border-gold pb-0.5 transition-colors duration-300 self-center"
-            >
-              コーチングについて →
-            </a>
-          </div>
+          {/* CTA */}
+          <a
+            href="#contact"
+            className="inline-block bg-gold text-white font-sans font-medium text-sm tracking-wider px-8 py-4 hover:bg-gold-dark transition-colors duration-300"
+          >
+            無料体験セッションを申し込む
+          </a>
         </div>
       </div>
 
