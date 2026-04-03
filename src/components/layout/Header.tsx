@@ -3,9 +3,10 @@
 import { useState, useEffect } from "react";
 
 const navLinks = [
-  { label: "サービス", href: "#service" },
-  { label: "プロフィール", href: "#profile" },
-  { label: "お問い合わせ", href: "#contact" },
+  { label: "Top", href: "#hero" },
+  { label: "Service", href: "#service" },
+  { label: "Profile", href: "#profile" },
+  { label: "Contact", href: "#contact" },
 ];
 
 export default function Header() {

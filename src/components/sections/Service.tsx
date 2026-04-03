@@ -3,6 +3,8 @@ const recommendedItems = [
   "転職・独立を考えているが、なかなか踏み出せない",
   "なんとなく毎日モヤっとしている感覚がある",
   "誰かに話を聞いてもらいながら、思考を整理したい",
+  "友人や家族、職場の人間関係を改善したい",
+  "自己理解を深めて、より自分らしい生き方をしたい",
 ];
 
 const trialSteps = [
@@ -17,12 +19,12 @@ export default function Service() {
 
       {/* Section header */}
       <div className="max-w-6xl mx-auto px-6 pt-28 md:pt-36 pb-16 text-center">
-        <p className="font-display italic text-gold tracking-[0.25em] text-sm mb-4">
-          SERVICES
-        </p>
-        <h2 className="font-serif text-ink text-3xl md:text-4xl">
-          サービス
+        <h2 className="font-serif text-ink text-3xl md:text-4xl mb-4">
+          Service
         </h2>
+        <p className="font-display italic text-gold tracking-[0.25em] text-sm">
+          サービス内容
+        </p>
         <div className="w-16 h-px bg-gold mx-auto mt-8" />
       </div>
 
@@ -57,10 +59,10 @@ export default function Service() {
             {recommendedItems.map((item, i) => (
               <div
                 key={i}
-                className="flex items-start gap-4 bg-surface border border-border p-6"
+                className="flex items-center gap-3 bg-surface border border-border p-6"
               >
-                <span className="font-display italic text-gold text-xl flex-shrink-0 mt-0.5">
-                  {String(i + 1).padStart(2, "0")}
+                <span className="font-display italic text-gold text-xl flex-shrink-0">
+                  {i + 1}.
                 </span>
                 <p className="font-sans text-ink-muted text-sm leading-relaxed">
                   {item}
@@ -94,7 +96,7 @@ export default function Service() {
                       <div className="w-px flex-1 bg-border my-1" />
                     )}
                   </div>
-                  <div className="pb-6">
+                  <div className="pb-6 -mt-0.5">
                     <p className="font-sans text-ink text-sm font-medium">
                       {step.label}
                     </p>
@@ -107,16 +109,17 @@ export default function Service() {
             </div>
           </div>
 
-          {/* 継続セッション */}
+          {/* 継続コーチング */}
           <div className="border border-border p-8">
             <div className="flex items-baseline gap-3 mb-6">
-              <h4 className="font-serif text-ink text-lg">継続セッション</h4>
-              <span className="font-sans text-ink-faint text-sm">60分 / 1回</span>
+              <h4 className="font-serif text-ink text-lg">継続コーチング</h4>
+              <span className="font-sans text-ink-faint text-sm">60分</span>
             </div>
             <p className="font-sans text-ink-muted text-sm leading-relaxed">
-              体験セッション後、継続を希望される方を対象にしたセッションです。
-              目標の設定から行動計画、振り返りまで、継続的にサポートします。
-              頻度・回数はご要望に合わせて柔軟に対応いたします。
+              体験セッション後、継続を希望される方を対象にしたプランです。
+              心の奥にある本当の願いを言語化し、理想の未来を描くことから始めます。
+              目標設定から行動計画、振り返りまで、継続的にサポートします。
+              月1回ペースで、3回または6回コースからお選びいただけます。
             </p>
           </div>
         </div>
@@ -125,10 +128,10 @@ export default function Service() {
         <div className="border border-gold/30 bg-cream p-6 text-center">
           <p className="font-sans text-ink-muted text-sm mb-2">
             <span className="text-gold font-medium">現在は無料</span>
-            でご提供しています。
+            でご提供しています。基本は全てオンラインです。
           </p>
           <p className="font-sans text-ink-faint text-xs">
-            ※ 今後有料化予定（体験セッション 1,500円 / 継続セッション 3,000円）
+            ※ 今後有料化予定(体験セッション 1,500円 / 継続コーチング 3,000円〜)
           </p>
         </div>
 

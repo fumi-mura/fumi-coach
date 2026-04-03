@@ -5,12 +5,12 @@ export default function Contact() {
       <div className="max-w-6xl mx-auto px-6">
         {/* Section header */}
         <div className="text-center mb-14">
-          <p className="font-display italic text-gold tracking-[0.25em] text-sm mb-4">
-            CONTACT
-          </p>
-          <h2 className="font-serif text-ink text-3xl md:text-4xl mb-6">
-            お問い合わせ
+          <h2 className="font-serif text-ink text-3xl md:text-4xl mb-4">
+            Contact
           </h2>
+          <p className="font-display italic text-gold tracking-[0.25em] text-sm mb-6">
+            お問い合わせ
+          </p>
           <p className="font-sans text-ink-muted text-base leading-relaxed max-w-md mx-auto">
             体験セッションのお申し込み・ご質問は
             <br className="hidden md:block" />
@@ -32,7 +32,7 @@ export default function Contact() {
             LINEで友だち追加
           </button>
           <p className="font-sans text-ink-faint text-xs mt-5">
-            24時間受付。通常1〜2営業日以内にご返信いたします。
+            通常1〜2営業日以内にご返信いたします。
           </p>
         </div>
       </div>
