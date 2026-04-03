@@ -57,10 +57,10 @@ export default function Service() {
             {recommendedItems.map((item, i) => (
               <div
                 key={i}
-                className="flex items-start gap-4 bg-surface border border-border p-6"
+                className="flex items-center gap-3 bg-surface border border-border p-6"
               >
-                <span className="font-display italic text-gold text-xl flex-shrink-0 mt-0.5">
-                  {String(i + 1).padStart(2, "0")}
+                <span className="font-display italic text-gold text-xl flex-shrink-0">
+                  {i + 1}.
                 </span>
                 <p className="font-sans text-ink-muted text-sm leading-relaxed">
                   {item}
@@ -94,7 +94,7 @@ export default function Service() {
                       <div className="w-px flex-1 bg-border my-1" />
                     )}
                   </div>
-                  <div className="pb-6">
+                  <div className="pb-6 -mt-0.5">
                     <p className="font-sans text-ink text-sm font-medium">
                       {step.label}
                     </p>
