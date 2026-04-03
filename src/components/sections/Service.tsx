@@ -23,7 +23,7 @@ export default function Service() {
           Service
         </h2>
         <p className="font-display italic text-gold tracking-[0.25em] text-sm">
-          サービス
+          サービス内容
         </p>
         <div className="w-16 h-px bg-gold mx-auto mt-8" />
       </div>
