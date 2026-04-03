@@ -27,7 +27,7 @@ export default function Hero() {
           </p>
 
           {/* Main headline */}
-          <h1 className="font-serif text-ink leading-[1.7] mb-6 text-4xl md:text-5xl lg:text-6xl">
+          <h1 className="font-serif text-ink leading-[1.7] mb-6 text-3xl md:text-4xl lg:text-5xl">
             一人で、悩まなくていい。
           </h1>
 
