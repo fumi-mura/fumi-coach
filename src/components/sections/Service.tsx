@@ -111,12 +111,13 @@ export default function Service() {
           <div className="border border-border p-8">
             <div className="flex items-baseline gap-3 mb-6">
               <h4 className="font-serif text-ink text-lg">継続コーチング</h4>
-              <span className="font-sans text-ink-faint text-sm">60分 / 3回 or 6回</span>
+              <span className="font-sans text-ink-faint text-sm">60分</span>
             </div>
             <p className="font-sans text-ink-muted text-sm leading-relaxed">
-              体験セッション後、継続を希望される方を対象にしたコーチングです。
-              目標の設定から行動計画、振り返りまで、継続的にサポートします。
-              3回または6回コースからお選びいただけます。
+              体験セッション後、継続を希望される方を対象にしたプランです。
+              本当の願いを言語化し、理想の未来を描くことから始めます。
+              目標設定から行動計画、振り返りまで、継続的にサポートします。
+              月1回ペースで、3回または6回コースからお選びいただけます。
             </p>
           </div>
         </div>
@@ -125,7 +126,7 @@ export default function Service() {
         <div className="border border-gold/30 bg-cream p-6 text-center">
           <p className="font-sans text-ink-muted text-sm mb-2">
             <span className="text-gold font-medium">現在は無料</span>
-            でご提供しています。
+            でご提供しています。基本は全てオンラインです。
           </p>
           <p className="font-sans text-ink-faint text-xs">
             ※ 今後有料化予定（体験セッション 1,500円 / 継続コーチング 3,000円〜）

@@ -31,9 +31,9 @@ export default function Profile() {
           <h3 className="font-serif text-ink text-lg mb-5">経歴</h3>
           <div className="space-y-3 font-sans text-ink-muted text-sm leading-relaxed">
             <p>愛知出身、博多在住</p>
-            <p>大学卒業後は地元の車部品の会社に設計職として入社。</p>
-            <p>退職後にセブ島留学、未経験からプログラミング独学をして、コロナ初期にエンジニアに転職。</p>
-            <p>数年後に独立し、フルリモートを活かして国内外でノマドをして、1年間で約20県、5カ国を巡る。</p>
+            <p>大学卒業後、地元の車部品メーカーに設計職として入社。</p>
+            <p>退職後にセブ島へ語学留学。帰国後、未経験からプログラミングを独学し、コロナ初期にエンジニアへ転職。</p>
+            <p>数年後に独立。フルリモートを活かし、1年間で国内約20都道府県・海外5ヶ国を巡るノマド生活を経験。</p>
             <p>現在は博多に移住して、エンジニアとコーチングを軸に活動中。</p>
           </div>
         </div>
@@ -43,6 +43,7 @@ export default function Profile() {
           <h3 className="font-serif text-ink text-lg mb-5">ストーリー</h3>
           <div className="space-y-5 font-sans text-ink-muted text-sm leading-relaxed">
             <p>
+              新卒で入社した会社で
               20代中盤、身の回りで不幸が重なることがありました。
               それまで当たり前だった日常が、突然崩れていく感覚。そのとき初めて、「自分は本当に何がしたいのか？」という問いと真剣に向き合うことになりました。
             </p>
@@ -56,6 +57,9 @@ export default function Profile() {
             </p>
             <p>
               現在はZaPASSコーチングアカデミーで学びながら、コーチとして活動しています。
+            </p>
+            <p>
+              コーチングに辿り着いた詳しい経緯や、学習の記録などは<a href="https://note.com/fumi23_engineer" className="text-gold" target="_blank" rel="noopener noreferrer"> Noteの投稿 </a> をご覧ください。
             </p>
           </div>
         </div>
