@@ -35,7 +35,7 @@ export default function Service() {
         </h3>
         <div className="space-y-5 font-sans text-ink-muted text-base leading-relaxed">
           <p>
-            コーチングとは、コーチとの対話を通じて、あなたの中にある答えを引き出すプロセスです。
+            コーチとの対話を通じて、あなたの中にある答えを引き出すプロセスです。
             アドバイスや指示をするのではなく、傾聴と問いかけによって、あなた自身が気づき、選択し、行動できるようサポートします。
           </p>
           <p>
