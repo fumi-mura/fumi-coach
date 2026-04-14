@@ -1,8 +1,11 @@
+import Link from "next/link";
+
 const navLinks = [
-  { label: "Top", href: "#hero" },
-  { label: "Service", href: "#service" },
-  { label: "Profile", href: "#profile" },
-  { label: "Contact", href: "#contact" },
+  { label: "Top", href: "/#hero" },
+  { label: "Service", href: "/#service" },
+  { label: "Profile", href: "/#profile" },
+  { label: "Q&A", href: "/#qa" },
+  { label: "Contact", href: "/#contact" },
 ];
 
 export default function Footer() {
@@ -17,13 +20,13 @@ export default function Footer() {
         <div className="border-t border-white/10 pt-8 text-center">
           <nav className="flex flex-wrap justify-center gap-8 mb-6">
             {navLinks.map((link) => (
-              <a
+              <Link
                 key={link.href}
                 href={link.href}
                 className="font-sans text-white/50 text-sm hover:text-gold transition-colors duration-200"
               >
                 {link.label}
-              </a>
+              </Link>
             ))}
           </nav>
           <p className="font-sans text-ink-faint text-xs">
