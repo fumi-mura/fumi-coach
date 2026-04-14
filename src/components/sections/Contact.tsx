@@ -1,7 +1,7 @@
 
 export default function Contact() {
   return (
-    <section id="contact" className="bg-surface py-28 md:py-36">
+    <section id="contact" className="bg-cream py-28 md:py-36">
       <div className="max-w-6xl mx-auto px-6">
         {/* Section header */}
         <div className="text-center mb-14">
@@ -12,7 +12,7 @@ export default function Contact() {
             お問い合わせ
           </p>
           <p className="font-sans text-ink-muted text-base leading-relaxed max-w-md mx-auto">
-            体験セッションのお申し込み・ご質問は
+            体験セッションのお申し込み・質問は
             <br className="hidden md:block" />
             公式LINEからお気軽にどうぞ。
           </p>

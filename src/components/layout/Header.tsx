@@ -1,12 +1,14 @@
 "use client";
 
 import { useState, useEffect } from "react";
+import Link from "next/link";
 
 const navLinks = [
-  { label: "Top", href: "#hero" },
-  { label: "Service", href: "#service" },
-  { label: "Profile", href: "#profile" },
-  { label: "Contact", href: "#contact" },
+  { label: "Top", href: "/#hero" },
+  { label: "Service", href: "/#service" },
+  { label: "Profile", href: "/#profile" },
+  { label: "Q&A", href: "/#qa" },
+  { label: "Contact", href: "/#contact" },
 ];
 
 export default function Header() {
@@ -31,34 +33,34 @@ export default function Header() {
     >
       <div className="max-w-6xl mx-auto px-6 h-full flex items-center justify-between">
         {/* Logo */}
-        <a
-          href="#hero"
+        <Link
+          href="/#hero"
           className="font-display italic text-gold text-2xl tracking-wide"
           onClick={closeMenu}
         >
           fumi
-        </a>
+        </Link>
 
         {/* Desktop Nav */}
         <nav className="hidden md:flex items-center gap-10">
           {navLinks.map((link) => (
-            <a
+            <Link
               key={link.href}
               href={link.href}
               className="font-sans text-ink-muted text-sm tracking-wide hover:text-gold transition-colors duration-200"
             >
               {link.label}
-            </a>
+            </Link>
           ))}
         </nav>
 
         {/* Desktop CTA */}
-        <a
-          href="#contact"
+        <Link
+          href="/#contact"
           className="hidden md:inline-block font-sans text-gold text-sm tracking-wider border border-gold px-5 py-2.5 hover:bg-gold hover:text-white transition-all duration-300"
         >
           無料体験セッション
-        </a>
+        </Link>
 
         {/* Mobile hamburger */}
         <button
@@ -91,22 +93,22 @@ export default function Header() {
         }`}
       >
         {navLinks.map((link) => (
-          <a
+          <Link
             key={link.href}
             href={link.href}
             onClick={closeMenu}
             className="font-serif text-ink text-2xl hover:text-gold transition-colors duration-200"
           >
             {link.label}
-          </a>
+          </Link>
         ))}
-        <a
-          href="#contact"
+        <Link
+          href="/#contact"
           onClick={closeMenu}
           className="font-sans text-gold text-base tracking-wider border border-gold px-8 py-3 hover:bg-gold hover:text-white transition-all duration-300 mt-4"
         >
           無料体験セッション
-        </a>
+        </Link>
       </div>
     </header>
   );
